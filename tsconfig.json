@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Define a versão do ECMAScript para a qual o código será compilado
+    "module": "CommonJS", // Define o sistema de módulos
+    "strict": true, // Habilita verificações estritas de tipo
+    "esModuleInterop": true, // Permite interoperabilidade entre módulos ES e CommonJS
+    "forceConsistentCasingInFileNames": true, // Evita problemas com diferenciação de maiúsculas e minúsculas
+    "skipLibCheck": true, // Ignora a verificação de tipos em arquivos de declaração
+    "outDir": "dist", // Diretório onde os arquivos compilados serão armazenados
+    "rootDir": "src" // Diretório de origem dos arquivos TypeScript
+  },
+  "include": ["src"], // Define os arquivos e diretórios incluídos na compilação
+  "exclude": ["node_modules", "dist"] // Define os arquivos e diretórios excluídos da compilação
+}
